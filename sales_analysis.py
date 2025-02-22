@@ -6,6 +6,7 @@ import seaborn as sns
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 from datetime import datetime, timedelta
+%matplotlib inline
 
 def create_sample_data():
     # Create sample data
